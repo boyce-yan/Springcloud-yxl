@@ -1,0 +1,15 @@
+#访问一个网站时，默认是80端口，给用户80端口，用户就可以不用加端口直接访问页面
+server:
+  port: 80
+
+
+spring:
+  application:
+    name: cloud-order-service
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka
