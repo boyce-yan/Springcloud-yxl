@@ -4,6 +4,7 @@ import com.yxl.cloud.entities.Payment;
 import com.yxl.cloud.po.CommonResult;
 import com.yxl.cloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -15,6 +16,9 @@ public class PaymentController {
 
     @Resource
     private PaymentService paymentService;
+
+    @Resource
+    private DiscoveryClient discoveryClient;
 
     //前后端分离，所以不能直接返回对象，数据要先经过CommonResult封装再返回
     @PostMapping("create")
