@@ -12,6 +12,8 @@
       <module>cloud-comsumer-order-80</module>
       <module>cloud-api-commons</module>
     <module>cloud-eureka-server7001</module>
+      <module>cloud-provider-payment8004</module>
+    <module>cloud-consumerzk-order80</module>
   </modules>
   <packaging>pom</packaging>
 
