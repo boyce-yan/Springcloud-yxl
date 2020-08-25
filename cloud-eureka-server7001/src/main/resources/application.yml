@@ -9,4 +9,4 @@ eureka:
   client:
     service-url:
       #设置与eurekaServer交互的地址查询服务和注册服务都需要依赖这个地址
-      defaultZone: http://eureka7002.com:7002/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
