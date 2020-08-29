@@ -28,9 +28,18 @@ public class PaymentController {
 
     @GetMapping("/payment/hystrix/timeout/{id}")
     public String paymentInfo_TimeOut(Integer id){
-        String result = paymentService.paymentInfo_OK(id);
+        String result = paymentService.paymentInfo_TimeOut(id);
         log.info("******result：" + result);
         return result;
     }
+
+
+    @GetMapping("/payment/circuit/{id}")
+    public String paymentCircuitBreaker(@PathVariable("id") Integer id){
+        String result = paymentService.paymentCircuitBreaker(id);
+        log.info("******result：" + result);
+        return result;
+    }
+
 
 }

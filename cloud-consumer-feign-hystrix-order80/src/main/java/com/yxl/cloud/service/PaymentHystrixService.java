@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 @Component
 @FeignClient(value = "CLOUD-PROVIDER-HYSTRIX-PAYMENT")
-public abstract class PaymentHystrixService {
+public interface PaymentHystrixService {
 
     @GetMapping("/payment/hystrix/ok/{id}")
     public abstract String paymentInfo_OK(@PathVariable("id") Integer id);

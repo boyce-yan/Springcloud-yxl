@@ -12,6 +12,12 @@
     <artifactId>untitled</artifactId>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
         <!-- hystrix-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
