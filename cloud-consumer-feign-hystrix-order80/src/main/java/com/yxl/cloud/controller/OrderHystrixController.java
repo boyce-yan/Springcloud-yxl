@@ -13,7 +13,7 @@ import javax.annotation.Resource;
 
 @Slf4j
 @RestController
-@DefaultProperties(defaultFallback = "paymentTimeOutFallbackMethod")
+@DefaultProperties(defaultFallback = " ")
 public class OrderHystrixController {
 
     @Resource
