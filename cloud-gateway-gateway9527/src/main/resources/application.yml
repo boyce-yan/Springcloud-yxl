@@ -21,6 +21,8 @@ spring:
           uri: lb://cloud-provider-hystrix-payment
           predicates:
             - Path=/payment/lb/** #断言,路径相匹配的进行路由
+            #指定时间后才能访问（After）时间往后写一小时
+            - After=2020-06-17T12:53:40.325+08:00[Asia/Shanghai]
 
 
 eureka:
