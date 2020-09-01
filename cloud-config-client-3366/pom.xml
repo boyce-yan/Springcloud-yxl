@@ -9,14 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-config-center-3344</artifactId>
-
-
+    <artifactId>cloud-config-client-3366</artifactId>
     <dependencies>
         <!--config server-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
+            <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
         <!--eureka client(通过微服务名实现动态路由)-->
         <dependency>
@@ -48,6 +46,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
         <!--添加消息总线RabbitMQ的支持-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -55,6 +58,5 @@
         </dependency>
 
     </dependencies>
-
 
 </project>

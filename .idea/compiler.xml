@@ -23,6 +23,7 @@
         <module name="cloud-comsumer-order-80" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-consumer-feign-order80" />
+        <module name="cloud-config-client-3366" />
       </profile>
     </annotationProcessing>
   </component>

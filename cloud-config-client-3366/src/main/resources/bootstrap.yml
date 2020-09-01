@@ -1,14 +1,14 @@
 server:
-  port: 3355
+  port: 3366
 
 
 spring:
+  application:
   rabbitmq:
     host: 120.92.164.250
     port: 5672
     username: guest
     password: guest
-  application:
     name: config-client
   cloud:
     config: #config客户端配置
