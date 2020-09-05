@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/cloud-eureka-server7002/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-eureka-server7003/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/pom.xml" />
       </list>
     </option>
   </component>
