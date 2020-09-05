@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-consumer-zipkin-order80" />
         <module name="cloud-provider-hystrix-payment8001" />
         <module name="cloud-config-center-3344" />
         <module name="cloud-eureka-server7003" />
@@ -21,6 +22,7 @@
         <module name="cloud-stream-rabbitmq-provider8801" />
         <module name="cloud-gateway-gateway9527" />
         <module name="cloud-consumer-consul-order80" />
+        <module name="cloud-provider-zipkin-payment8001" />
         <module name="cloud-config-client-3355" />
         <module name="cloud-comsumer-order-80" />
         <module name="cloud-consumer-hystrix-dashboard9001" />

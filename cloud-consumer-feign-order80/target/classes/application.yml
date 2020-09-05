@@ -7,3 +7,7 @@ eureka:
     register-with-eureka: false
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+
+logging:
+  level:
+    com.yxl.cloud.feign.PaymentFeignService: debug

@@ -1,5 +1,5 @@
 server:
-  port: 8802
+  port: 8803
 
 spring:
   application:
@@ -20,8 +20,7 @@ spring:
         input: #这个名字是一个通道的名称
           destination: studyExchange #表示要使用的Exchange名称定义
           content-type: application/json #设置消息类型，本次为json，本文要设置为“text/plain”
-          binder: defaultRabbit #设置要绑定的消息服务的具体设置（爆红不影响使用，位置没错）
-
+          group: angeninB
 eureka:
   client:
     service-url:

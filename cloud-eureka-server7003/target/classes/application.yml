@@ -1,11 +1,11 @@
 #微服务建议一定要写服务端口号和微服务名称
 server:
   #端口号
-  port: 7001
+  port: 7003
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: eureka7003.com
   client:
     #false表示不向注册中心注册自己（想注册也可以，不过没必要）
     register-with-eureka: false
@@ -13,4 +13,4 @@ eureka:
     fetch-registry: false
     service-url:
       #设置与eurekaServer交互的地址查询服务和注册服务都需要依赖这个地址
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7001.com:7001/eureka/
