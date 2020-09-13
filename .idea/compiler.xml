@@ -24,6 +24,7 @@
         <module name="cloudalibaba-consumer-nacos-order83" />
         <module name="cloud-stream-rabbitmq-provider8801" />
         <module name="cloud-gateway-gateway9527" />
+        <module name="cloudalibaba-config-nacos-client3377" />
         <module name="cloud-consumer-consul-order80" />
         <module name="cloud-provider-zipkin-payment8001" />
         <module name="cloud-config-client-3355" />
