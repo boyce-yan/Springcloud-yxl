@@ -27,6 +27,8 @@
     <module>cloud-stream-rabbitmq-consumer8802</module>
     <module>cloud-provider-zipkin-payment8001</module>
     <module>cloud-consumer-zipkin-order80</module>
+    <module>cloudalibaba-provider-payment9001</module>
+    <module>cloudalibaba-consumer-nacos-order83</module>
   </modules>
   <packaging>pom</packaging>
 
