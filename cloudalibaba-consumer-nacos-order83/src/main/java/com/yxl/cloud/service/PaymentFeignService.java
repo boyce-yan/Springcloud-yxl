@@ -1,4 +1,4 @@
-package com.yxl.cloud.feign;
+package com.yxl.cloud.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;

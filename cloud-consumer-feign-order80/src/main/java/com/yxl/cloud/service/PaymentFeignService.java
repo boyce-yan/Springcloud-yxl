@@ -1,4 +1,4 @@
-package com.yxl.cloud.feign;
+package com.yxl.cloud.service;
 
 import com.yxl.cloud.po.CommonResult;
 import org.springframework.cloud.openfeign.FeignClient;

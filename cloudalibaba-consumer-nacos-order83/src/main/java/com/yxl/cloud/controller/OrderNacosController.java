@@ -1,6 +1,6 @@
 package com.yxl.cloud.controller;
 
-import com.yxl.cloud.feign.PaymentFeignService;
+import com.yxl.cloud.service.PaymentFeignService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;

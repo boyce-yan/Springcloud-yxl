@@ -2,7 +2,7 @@ package com.yxl.cloud.controller;
 
 import com.yxl.cloud.entities.Payment;
 import com.yxl.cloud.po.CommonResult;
-import com.yxl.cloud.feign.PaymentFeignService;
+import com.yxl.cloud.service.PaymentFeignService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
