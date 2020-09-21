@@ -33,6 +33,7 @@
         <module name="cloud-config-client-3355" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloudalibaba-sentinel-service8401" />
+        <module name="seata-order-service2001" />
         <module name="cloud-provider-hystrix-payment8001" />
         <module name="cloud-provider-consul-payment8006" />
         <module name="cloud-config-center-3344" />
