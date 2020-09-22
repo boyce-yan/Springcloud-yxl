@@ -18,6 +18,7 @@
         <module name="cloud-provider-payment8001" />
         <module name="cloudalibaba-provider-payment9004" />
         <module name="cloud-consumer-zipkin-order80" />
+        <module name="snowflake" />
         <module name="cloud-config-client-3366" />
         <module name="cloud-consumer-feign-hystrix-order80" />
         <module name="cloud-stream-rabbitmq-consumer8802" />
